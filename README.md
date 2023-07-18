@@ -1,6 +1,7 @@
 <h1 align="center">My Portfolio</h1>
 <p align="center">
   
+![portfolioo](https://github.com/TheMostafax/My_Portfolio/assets/81190585/a951f938-a45e-41d9-88ce-64c37194d78b)
 
 
 </p>
@@ -82,8 +83,11 @@ The My Skills page is an in-depth exploration of the technical skills and knowle
 
 <h2 align="center">Responsive View</h2>
 
+![image](https://github.com/TheMostafax/My_Portfolio/assets/81190585/f7ad3aa4-1828-4266-8263-650e12dc0c5b)
 
+![image](https://github.com/TheMostafax/My_Portfolio/assets/81190585/2bcbf8aa-79d1-47ab-a3cb-66831cfc7711)
 
+![image](https://github.com/TheMostafax/My_Portfolio/assets/81190585/166dbf9a-f964-44c3-a823-bba254aeb7d7)
 
 <hr>
 
