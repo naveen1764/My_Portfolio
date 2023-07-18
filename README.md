@@ -40,6 +40,7 @@ The My Skills page is an in-depth exploration of the technical skills and knowle
 <h3 align="center">Home page</h3>
 
 
+![image](https://github.com/TheMostafax/My_Portfolio/assets/81190585/9fe7f6c4-6726-4bc4-9ab2-f3b8d9d36ee0)
 
 
 
@@ -47,6 +48,7 @@ The My Skills page is an in-depth exploration of the technical skills and knowle
 
 <h3 align="center">About Me page</h3>
 
+![image](https://github.com/TheMostafax/My_Portfolio/assets/81190585/fbb0cc1e-996b-460a-9630-e69a91661723)
 
 
 
@@ -55,15 +57,24 @@ The My Skills page is an in-depth exploration of the technical skills and knowle
 <h3 align="center">My Skills page</h3>
 
 
+![image](https://github.com/TheMostafax/My_Portfolio/assets/81190585/4d29f734-2deb-436e-9d56-2cfb85fba79f)
 
 
 
 <hr>
 
+<h3 align="center">My Projects page</h3>
 
+
+![image](https://github.com/TheMostafax/My_Portfolio/assets/81190585/06a6bb77-5fc6-43f7-8bc5-9c23469b6f4c)
+
+
+
+<hr>
 
 <h3 align="center">Contact Me page</h3>
 
+![image](https://github.com/TheMostafax/My_Portfolio/assets/81190585/1b6479a8-7afb-40b9-96de-e2e33bf1351c)
 
 
 <hr>
