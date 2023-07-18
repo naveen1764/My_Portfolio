@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@layer base {
+    body {
+        @apply font-[Raleway];
+        
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
+}
+.loader {
+    border-top-color: #db1919;
+    animation: spin 1s ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
