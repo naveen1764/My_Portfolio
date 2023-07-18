@@ -74,7 +74,8 @@ The My Skills page is an in-depth exploration of the technical skills and knowle
 
 <h3 align="center">Contact Me page</h3>
 
-![image](https://github.com/TheMostafax/My_Portfolio/assets/81190585/1b6479a8-7afb-40b9-96de-e2e33bf1351c)
+![image](https://github.com/TheMostafax/My_Portfolio/assets/81190585/aa79f763-0bec-41b0-8ad9-60a98ad6ce7a)
+
 
 
 <hr>
