@@ -3,7 +3,6 @@
   
 ![portfolioo](https://github.com/TheMostafax/My_Portfolio/assets/81190585/a951f938-a45e-41d9-88ce-64c37194d78b)
 
-
 </p>
 
 <h1 align="center">Project Description </h1>
