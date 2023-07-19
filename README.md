@@ -6,7 +6,6 @@
 
 </p>
 
-
 <h1 align="center">Project Description </h1>
 
 Welcome to my professional portfolio website, designed and developed using React JS and Tailwind CSS. This website is a showcase of my skills, experience, and projects, and is a testament to my commitment to quality and attention to detail.
