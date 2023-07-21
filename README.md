@@ -18,6 +18,30 @@ The My Skills page is an in-depth exploration of the technical skills and knowle
 
 <h1 align="center">🚀 Folder Structure</h1>
 
+```
+
+└── myrealstate/
+    ├── src/
+    |   ├── components/
+    |   └── ├── assets/
+    |   └── ├── pages/
+    |            └── About.js
+    |            └── Contact.js
+    |            └── Home.js
+    |            └── Projects.js
+    |            └── Skills.js
+    |            └── home.css
+    |     └── PageLoader.js
+    |     └── Navbar.js
+    |     └── Footer.js
+    └── App.css
+    └── App.js
+    └── index.css
+    └── index.js
+
+```
+
+
 
 <hr>
 
