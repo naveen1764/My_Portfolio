@@ -29,7 +29,7 @@ const Home = () => {
             <br/>
             <br/>
             <h1 className={`text-3xl sm:text-6xl font-bold text-${colorScheme.accentColor} ${isDarkMode ? 'text-white' : 'text-black'}`}>
-              Hello everyone!
+              Hello everyone !
               <br/>
             
             </h1>
@@ -69,7 +69,7 @@ const Home = () => {
           <div className='md:w-1/3 flex justify-center md:justify-center'>
             <img
               src={isDarkMode ? mee : me}
-              alt='profile'
+              alt='profiles'
               className='rounded-full h-80 w-81 md:w-auto md:h-auto mr-8 mb-4 md:mb-0'
               style={{marginLeft: '30px'}}
             />
