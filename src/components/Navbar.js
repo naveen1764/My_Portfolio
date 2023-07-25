@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-import logo from '../components/assets/mh.png';
 import '../index.css'
 import { FaHome, FaUser, FaCode, FaProjectDiagram} from 'react-icons/fa';
 import NLogo from '../components/assets/NLogoWhite.png'
