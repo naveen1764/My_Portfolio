@@ -3,14 +3,12 @@ import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
-import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
-import Mongo from '../assets/mongo.png';
-import Python from '../assets/Python.png';
-import Next from '../assets/next.png';
-import Figma from '../assets/figmaa.jpg';
-import flutter from '../assets/fl.png';
+import PhotoShopImg from '../assets/photoshoplogo.png';
+import IllusImg from '../assets/AdobeIllusLogo.png';
+import msWordImg from '../assets/msWordLogo.png';
+import msExcelImg from '../assets/msExcelLogo.png';
+import msPPImg from '../assets/msPPLogo.png';
+import msOffImg from '../assets/msofficelogo.png';
 
 const Skills = () => {
   return (
@@ -20,56 +18,51 @@ const Skills = () => {
     <div className="text-center">
       <h1 className="text-4xl font-bold mb-4 inline-block my-16 text-yellow-300">My <span className="text-red-500">Skills</span></h1>
     </div>
-    <p className="mt-4 text-lg text-center my-10 text-white mb-8">Writing code using languages : C++, C#, Java, HTML, CSS, JS, Dart, PHP, MYSQL, and Python.</p>
+    <p className="mt-4 text-lg text-center my-10 text-white mb-8">Writing code using languages : HTML, CSS, JS & React; <br/>
+    For Designing : Adobe Photoshop & Illustrator : 
+    For Analysing & Presentations : MS Office, Word, Excel & Power Point</p>
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 py-8">
     <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
         <img className="w-20 mx-auto mt-4 mb-2" src={HTML} alt="HTML icon" />
         <p className="text-lg">HTML</p>
       </div>
       <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-        <img className="w-20 mx-auto mt-4 mb-2" src={CSS} alt="HTML icon" />
+        <img className="w-20 mx-auto mt-4 mb-2" src={CSS} alt="CSS icon" />
         <p className="text-lg">CSS</p>
       </div>
       <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-        <img className="w-20 mx-auto mt-4 mb-2" src={JavaScript} alt="HTML icon" />
+        <img className="w-20 mx-auto mt-4 mb-2" src={JavaScript} alt="Java Script icon" />
         <p className="text-lg">JAVASCRIPT</p>
       </div>
       <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-        <img className="w-20 mx-auto mt-4 mb-2" src={ReactImg} alt="HTML icon" />
+        <img className="w-20 mx-auto mt-4 mb-2" src={ReactImg} alt="React JS icon" />
         <p className="text-lg">REACT JS</p>
       </div>
       <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-        <img className="w-20 mx-auto mt-4 mb-2" src={Node} alt="HTML icon" />
-        <p className="text-lg">NODE JS</p>
+        <img className="w-20 mx-auto mt-4 mb-2" src={PhotoShopImg} alt="Photoshop icon" />
+        <p className="text-lg">ADOBE PHOTOSHOP</p>
       </div>
       <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-        <img className="w-20 mx-auto mt-4 mb-2" src={GitHub} alt="HTML icon" />
-        <p className="text-lg">GITHUB</p>
+        <img className="w-20 mx-auto mt-4 mb-2" src={IllusImg} alt="Illustrator icon" />
+        <p className="text-lg">ADOBE ILLUSTRATOR</p>
       </div>
       <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-        <img className="w-20 mx-auto mt-4 mb-2" src={Tailwind} alt="HTML icon" />
-        <p className="text-lg">TAILWIND CSS</p>
+        <img className="w-20 mx-auto mt-4 mb-2" src={msWordImg} alt="MS Word icon" />
+        <p className="text-lg">MS WORD</p>
       </div>
       <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-        <img className="w-20 mx-auto mt-4 mb-2" src={Mongo} alt="HTML icon" />
-        <p className="text-lg">MONGO DB</p>
+        <img className="w-20 mx-auto mt-4 mb-2" src={msExcelImg} alt="MS Excel icon" />
+        <p className="text-lg">MS EXCEL</p>
       </div>
       <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-      <img className="w-20 mx-auto mt-4 mb-2" src={Python} alt="HTML icon" />
-        <p className="text-lg">PYTHON</p>
+        <img className="w-20 mx-auto mt-4 mb-2" src={msPPImg} alt="Power Point icon" />
+        <p className="text-lg">MS POWER POINT</p>
       </div>
       <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-      <img className="w-20 mx-auto mt-4 mb-2" src={Next} alt="HTML icon" />
-        <p className="text-lg">NEXT JS</p>
+        <img className="w-20 mx-auto mt-4 mb-2" src={msOffImg} alt="MS Office icon" />
+        <p className="text-lg">MS OFFICE</p>
       </div>
-      <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-      <img className="w-20 mx-auto mt-4 mb-2" src={Figma} alt="HTML icon" />
-        <p className="text-lg">FIGMA</p>
-      </div>
-      <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-      <img className="w-20 mx-auto mt-4 mb-2" src={flutter} alt="HTML icon" />
-        <p className="text-lg">FLUTTER</p>
-      </div>
+      
     </div>
   </div>
 </div>

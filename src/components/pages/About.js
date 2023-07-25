@@ -10,11 +10,11 @@ const About = () => {
         <h2 className="text-3xl md:text-5xl font-bold text-yellow-300 mb-4 my-5">
              About <span className="text-red-500">Me</span>
         </h2>
-          <h2 className='py-4 text-gray-300 text-2xl'>Hi there, my name is Mostafa Hassan</h2>
+          <h2 className='py-4 text-gray-300 text-2xl'>Hi there, my name is Naveen Kumar Madasu</h2>
           <div class="border border-white p-4">
           <p class="text-lg md:text-xl text-white mb-8">
             <p class="text-2xl font-serif"></p>  
-            I am a software engineering student (4th Year) at Sixth of October University for Modern Science and Arts (MSA), under the supervision of Greenwich University's School of Computing Science, I am passionate about (Web development using ReactJS/NextJS) and (Mobile app development using Flutter/React native).
+            I have successfully earned my B.Sc in Computer Science and currently, I am engaged in a Front-end Developer role at Birdsong Education PVT Ltd. Here, I am focused on React project for Schools ERP, utilizing my skills in HTML, CSS, and JS. This opportunity allows me to blend my passion for technology and education, crafting efficient and innovative solutions. As I continue to explore the vast potential of React, I remain committed to making a positive impact on the educational landscape.
             <br/>
             <br/>
             I am also familiar with graphic design principles for creating visually appealing and user-friendly interfaces, and proficient in Figma and Adobe Photoshop for UI and UX design.

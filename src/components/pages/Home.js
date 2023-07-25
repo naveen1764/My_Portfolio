@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import me from '../assets/wifi.gif';
 import mee from '../assets/campan2.gif';
 import  './home.css';
-import {FaLinkedin} from 'react-icons/fa';
+import {FaFacebook, FaLinkedin} from 'react-icons/fa';
 
 const Home = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -34,13 +34,14 @@ const Home = () => {
             
             </h1>
             <p className={`py-2 max-w-[1200px] text-2xl ${isDarkMode ? 'text-red-500' : 'text-violet-800'}`}>
-            My name is Naveen Kumar Madasu, <br/> <span className={isDarkMode ? 'text-yellow-300' : 'text-red-500'}>I'm a Front-End Developer React.JS</span>            
+            My name is Naveen Kumar Madasu, <span className={isDarkMode ? 'text-yellow-300' : 'text-red-500'}>I'm a Front-End Developer React.JS</span>            
             </p>
             <div className='inline-flex rounded-md shadow-sm'>
               <button className={`text-black group border-2 px-6 py-3 my-2 mr-4 flex items-center rounded-full hover:bg-gradient-to-r hover:border-gradient-to-r transition-colors duration-500 transform-gpu hover:scale-105 ${isDarkMode ? 'border-white text-yellow-300' : 'border-black text-black'}`}>
                 <a
                   id
-                  href='https://drive.google.com/file/d/1GJFpmwRCmMyZ3K0B0Q5sOncEloBsT5qe/view?usp=sharing'
+                  href='https://drive.google.com/file/d/1uk-akFagehM4sAoue6qA3bFwITONJGj2/view?usp=sharing'
+                  target="_blank" rel="noopener noreferrer"
                 >
                  
                   Check My CV
@@ -48,13 +49,27 @@ const Home = () => {
                 </a>
               </button>
 
+              <button className={`text-black group border-2 px-6 py-3 my-2 mr-4 flex items-center rounded-full hover:bg-gradient-to-r hover:border-gradient-to-r transition-colors duration-500 transform-gpu hover:scale-105 ${isDarkMode ? 'border-white text-yellow-300' : 'border-black text-black'}`}>
+                <a
+                  id
+                  href='https://www.facebook.com/naveennaidu.madasu'
+                  target="_blank" rel="noopener noreferrer"
+                >
+                 
+                  Facebook
+                  <FaFacebook className="inline-block ml-2" />
+                </a>
+              </button>
+
               <button className={`text-black border-2 px-6 py-3 my-2 flex items-center rounded-full hover:bg-gradient-to-r hover:border-gradient-to-r transition-colors duration-500 transform-gpu hover:scale-105 ${isDarkMode ? 'border-white text-yellow-300' : 'border-black text-black'}`}>
-                <a id href='https://www.linkedin.com/in/mostafa-hassan-5a3450284/'>
+                <a id href='https://www.linkedin.com/in/madasu-naveen-kumar-09468b145/'
+                target="_blank" rel="noopener noreferrer">
                
                   LinkedIn
                   <FaLinkedin className="inline-block ml-2" />
                 </a>
               </button>
+              
             </div>
             <div className="flex items-right justify-right mt-4">
               <span className={`${isDarkMode ? 'text-white' : 'text-black'} mr-2`}>Light🌞</span>

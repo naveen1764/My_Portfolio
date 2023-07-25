@@ -39,21 +39,21 @@ const Contact = () => {
               Contact <span className="text-red-500">Me</span>
             </h2>
             <p className="text-lg text-white mb-8">
-              If you have any questions or would like to collaborate, please
+              If you have any questions, please
               don't hesitate to contact me
             </p>
             <ul className="text-lg text-white">
               <li className="flex items-center mb-4">
                 <FaPhone className="h-6 w-6 mr-2 text-yellow-300" />
-                01012017839
+                +91 97044 15023
               </li>
               <li className="flex items-center mb-4">
                 <FaMapMarkerAlt className="h-6 w-6 mr-2 text-yellow-300" />
-                Zahraa Maadi, Cairo, Egypt
+                Gudivada, Krishna Dt, Andhra Pradesh, India
               </li>
               <li className="flex items-center mb-4">
                 <FaEnvelope className="h-6 w-6 mr-2 text-yellow-300" />
-                mh1546226@gmail.com
+                madasunaveennaidu@gmail.com
               </li>
             </ul>
           </div>
