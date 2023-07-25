@@ -1,5 +1,5 @@
 import React from 'react';
-import Project1Img from '../assets/myanimeapp.jpg';
+import Project1Img from '../assets/portfolioimg.png';
 // import Project2Img from '../assets/ozone.JPG';
 // import Project3Img from '../assets/real.JPG';
 // import Project4Img from '../assets/fashion.JPG';
