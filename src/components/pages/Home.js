@@ -34,7 +34,7 @@ const Home = () => {
             
             </h1>
             <p className={`py-2 max-w-[1200px] text-2xl ${isDarkMode ? 'text-red-500' : 'text-violet-800'}`}>
-            My name is Mostafa, <span className={isDarkMode ? 'text-yellow-300' : 'text-red-500'}>I'm a Software Engineer.</span>            
+            My name is Naveen Kumar Madasu, <br/> <span className={isDarkMode ? 'text-yellow-300' : 'text-red-500'}>I'm a Front-End Developer React.JS</span>            
             </p>
             <div className='inline-flex rounded-md shadow-sm'>
               <button className={`text-black group border-2 px-6 py-3 my-2 mr-4 flex items-center rounded-full hover:bg-gradient-to-r hover:border-gradient-to-r transition-colors duration-500 transform-gpu hover:scale-105 ${isDarkMode ? 'border-white text-yellow-300' : 'border-black text-black'}`}>
