@@ -36,7 +36,7 @@ const Navbar = () => {
         duration={500}
         className="transition duration-200 transform hover:scale-110"
       >
-        <div className="text-yellow-300 mb-4 my-5">
+        <div className="text-yellow-300 mb-4 my-1">
         <img src={NLogo} alt="Naveen Logo" className="w-10 h-10" />
       </div>
       </Link>
@@ -73,8 +73,8 @@ const Navbar = () => {
       <div className={`${showMenu ? "left-0" : "-left-full"} md:hidden h-screen w-1/2 bg-black fixed top-0 z-50 `} style={{ transition: `left ${menuTransitionDuration}ms ease-in-out` }}>
         <div className="h-full flex flex-col justify-center items-center">
           <div className="flex flex-col items-center mb-8">
-            <img src={logo} alt="Logo" className="rounded-full w-16 h-16 mb-2" />
-            <span className="text-white text-sm">Mostafa Hassan</span>
+            <img src={NLogo} alt="Logo" className="w-16 h-16 mb-2" />
+            <span className="text-white text-sm">Naveen Madasu</span>
           </div>
           <ul className="text-white text-1xl">
             <li className="my-4" style={{ transition: `opacity ${menuTransitionDuration}ms ease-in-out` }}>
