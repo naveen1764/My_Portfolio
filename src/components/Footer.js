@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaLinkedin, FaGithub, FaEnvelope, FaFacebook } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaEnvelope, FaFacebook } from 'react-icons/fa';
 
 function Footer() {
 return (
@@ -29,15 +29,11 @@ return (
             <FaFacebook className="inline-block mr-2" />
               Facebook
             </a>
-            <a href="https://github.com/naveen1764" className="inline-block" target="_blank" rel="noopener noreferrer">
-            <FaGithub className="inline-block mr-2" />
-              GitHub
-            </a>
         </div>
     </div>
         <div className="mt-8 border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between" >
           <div className="text-sm text-gray-400">
-            <p>All rights reserved &copy; 2023</p>
+            <p>All rights reserved &copy; N-Finity_2023</p>
           </div>
 
           <div className="text-sm text-gray-400">

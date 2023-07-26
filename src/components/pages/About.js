@@ -20,7 +20,7 @@ const About = () => {
             I am also familiar with graphic design principles for creating visually appealing and user-friendly interfaces, and proficient in Figma and Adobe Photoshop for UI and UX design.
             <br/>
             <br/>
-            Learning new things always excites me, and I am constantly seeking new challenges to expand my knowledge and skills.
+            Learning new things always excites me, and I am constantly seeking new challenges to expand my knowledge and skills and branding my coding with N-Finity (Limitless Coding).
           </p>
         </div>
         </div>

@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import me from '../assets/wifi.gif';
 import mee from '../assets/campan2.gif';
 import  './home.css';
-import {FaFacebook, FaLinkedin} from 'react-icons/fa';
+import {FaLinkedin} from 'react-icons/fa';
 
 const Home = () => {
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
@@ -22,19 +22,19 @@ const Home = () => {
   };
 
   return (
-    <div name='home' className={`flex justify-center items-center w-full min-h-screen ${isDarkMode ? 'bg-gradient-to-b from-blue-900 to-black' : 'bg-gradient-to-b from-blue-600 to-white'}`} style={{ backgroundColor: colorScheme.backgroundColor }}>
+    <div name='home' className={`flex justify-center items-center w-full min-h-screen ${isDarkMode ? 'bg-gradient-to-b from-seagreen-900 to-black' : 'bg-gradient-to-b from-blue-500 to-white'}`} style={{ backgroundColor: colorScheme.backgroundColor }}>
       <div className='max-w-[1200px] mx-auto px-8 flex flex-col justify-center' style={{ color: colorScheme.textColor }}>
         <div className='flex flex-col md:flex-row items-center md:justify-between'>
           <div className='md:w-1/2.5'>
             <br/>
             <br/>
             <h1 className={`text-3xl sm:text-6xl font-bold text-${colorScheme.accentColor} ${isDarkMode ? 'text-white' : 'text-black'}`}>
-              Hello everyone !
+              Hello everyone, Welcome !
               <br/>
             
             </h1>
             <p className={`py-2 max-w-[1200px] text-2xl ${isDarkMode ? 'text-red-500' : 'text-violet-800'}`}>
-            My name is Naveen Kumar Madasu, <span className={isDarkMode ? 'text-yellow-300' : 'text-red-500'}>I'm a Front-End Developer React.JS</span>            
+            My name is <b> Naveen Kumar Madasu</b> & <b> <span className={isDarkMode ? 'text-yellow-300' : 'text-red-500'}>I'm a Front-End Developer React.JS</span> </b>            
             </p>
             <div className='inline-flex rounded-md shadow-sm'>
               <button className={`text-black group border-2 px-6 py-3 my-2 mr-4 flex items-center rounded-full hover:bg-gradient-to-r hover:border-gradient-to-r transition-colors duration-500 transform-gpu hover:scale-105 ${isDarkMode ? 'border-white text-yellow-300' : 'border-black text-black'}`}>
@@ -46,18 +46,6 @@ const Home = () => {
                  
                   Check My CV
                  
-                </a>
-              </button>
-
-              <button className={`text-black group border-2 px-6 py-3 my-2 mr-4 flex items-center rounded-full hover:bg-gradient-to-r hover:border-gradient-to-r transition-colors duration-500 transform-gpu hover:scale-105 ${isDarkMode ? 'border-white text-yellow-300' : 'border-black text-black'}`}>
-                <a
-                  id
-                  href='https://www.facebook.com/naveennaidu.madasu'
-                  target="_blank" rel="noopener noreferrer"
-                >
-                 
-                  Facebook
-                  <FaFacebook className="inline-block ml-2" />
                 </a>
               </button>
 
