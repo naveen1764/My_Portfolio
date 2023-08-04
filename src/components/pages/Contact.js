@@ -5,7 +5,7 @@ import emailjs from "emailjs-com";
 const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
-
+  
     emailjs
       .sendForm(
         "service_xhmd2nq",
@@ -14,15 +14,21 @@ const Contact = () => {
         "7nBLoP3f5ZaFnGAtS"
       )
       .then(
-        (result) => {
-          console.log(result.text);
-          window.alert("Your message has been sent!");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-
+        (response) => {
+          console.log("EmailJS Response:", response);
+          if (response.status === 200) {
+            console.log("Email sent successfully:", response.text);
+            window.alert("Your message has been sent!");
+          } else {
+            console.log("EmailJS Error:", response.text);
+            window.alert("An error occurred while sending the email.");
+          }
+        })
+      .catch((error) => {
+        console.log("EmailJS API Error:", error);
+        window.alert("An error occurred while sending the email.");
+      });
+  
     e.target.reset();
   };
 

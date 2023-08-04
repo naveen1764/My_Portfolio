@@ -17,7 +17,7 @@ const About = () => {
             I have successfully earned my B.Sc in Computer Science and currently, I am engaged in a Front-end Developer role at Birdsong Education PVT Ltd. Here, I am focused on React project for Schools ERP, utilizing my skills in HTML, CSS, and JS. This opportunity allows me to blend my passion for technology and education, crafting efficient and innovative solutions. As I continue to explore the vast potential of React, I remain committed to making a positive impact on the educational landscape.
             <br/>
             <br/>
-            I am also familiar with graphic design principles for creating visually appealing and user-friendly interfaces, and proficient in Figma and Adobe Photoshop for UI and UX design.
+            I am also familiar with graphic design principles for creating visually appealing and user-friendly interfaces, and proficient in Adobe Photoshop, Illustrator & slightly Figma.
             <br/>
             <br/>
             Learning new things always excites me, and I am constantly seeking new challenges to expand my knowledge and skills and branding my coding with N-Finity (Limitless Coding).
