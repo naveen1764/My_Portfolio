@@ -4,6 +4,7 @@ import emailjs from "emailjs-com";
 
 const Contact = () => {
   const sendEmail = (e) => {
+    console.log(e, "E Taret")
     e.preventDefault();
   
     emailjs

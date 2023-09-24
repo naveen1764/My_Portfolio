@@ -5,7 +5,7 @@ import  './home.css';
 import {FaLinkedin} from 'react-icons/fa';
 
 const Home = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
@@ -34,7 +34,7 @@ const Home = () => {
             
             </h1>
             <p className={`py-2 max-w-[1200px] text-2xl ${isDarkMode ? 'text-red-500' : 'text-blue-900'}`}>
-            My name is <b> Naveen Kumar Madasu</b> & <b> <span className={isDarkMode ? 'text-yellow-300' : 'text-red-500'}>I'm a Front-End Developer React.JS</span> </b>            
+            My name is <b> Naveen Kumar Madasu</b> & <b> <span className={isDarkMode ? 'text-yellow-300' : 'text-red-500'}>I'm a Software Engineer (Front-End Developer, React Js)</span> </b>            
             </p>
             <div className='inline-flex rounded-md shadow-sm'>
               <button className={`text-black group border-2 px-6 py-3 my-2 mr-4 flex items-center rounded-full hover:bg-gradient-to-r hover:border-gradient-to-r transition-colors duration-500 transform-gpu hover:scale-105 ${isDarkMode ? 'border-white text-yellow-300' : 'border-black text-black'}`}>
