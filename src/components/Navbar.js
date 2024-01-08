@@ -3,6 +3,7 @@ import { Link } from 'react-scroll';
 import '../index.css'
 import { FaHome, FaUser, FaCode, FaProjectDiagram} from 'react-icons/fa';
 import NLogo from '../components/assets/NLogoWhite.png'
+
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,10 +34,10 @@ const Navbar = () => {
         to="home"
         smooth={true}
         duration={500}
-        className="transition duration-200 transform hover:scale-110"
+        className="transition duration-200 transform hover:scale-150"
       >
         <div className="text-yellow-300 mb-4 my-1">
-        <img src={NLogo} alt="Naveen Logo" className="w-10 h-10" />
+        <img src={NLogo} alt="Naveen Logo" className="w-15 h-10" />
       </div>
       </Link>
     </div>

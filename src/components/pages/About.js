@@ -20,7 +20,7 @@ const About = () => {
             I am also familiar with graphic design principles for creating visually appealing and user-friendly interfaces, and proficient in Adobe Photoshop, Illustrator & slightly Figma.
             <br/>
             <br/>
-            Learning new things always excites me, and I am constantly seeking new challenges to expand my knowledge and skills and branding my coding with N-Finity (Limitless Coding).
+            Learning new things always excites me, and I am constantly seeking new challenges to expand my knowledge and skills and branding my coding with <b className='text-yellow-300'>NFinity (Build your future now)</b>.
           </p>
         </div>
         </div>
